@@ -1,0 +1,134 @@
+nav {
+    background-color: #f2f6f8;
+    color: #1b556d;
+    padding: 10px;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    text-align: right;
+}
+
+nav a {
+    color: #1b556d;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #1b556d;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+h2 {
+    color: #1b556d;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+h3 {
+    color: #337e92;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h4 {
+    color: #337e92;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+p {
+    color: #30394b;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+label {
+    color: #30394b;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+.feats {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#feat1 {
+    text-align: left;
+}
+
+#feat2 {
+    text-align: right;
+}
+
+#feat3 {
+    text-align: left;
+}
+
+#feat4 {
+    text-align: right;
+}
+
+.aboutus {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.team {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contactus {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.contactblock {
+    background-color: #f2f6f8;
+    padding: 20px;
+    width: 800px;
+    text-align: center;
+    display: inline-block;
+}
+
+form {
+    float: left;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 300px;
+    color: #30394b;
+    text-align: left;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+textarea {
+    height: 100px;
+    width: 300px;
+}
+
+#submit {
+    height: 35px;
+    width: 100px;
+    text-align: center;
+}
+
+#contactimg {
+    float: right;
+    height: 400px;
+    width: 400px;
+}
