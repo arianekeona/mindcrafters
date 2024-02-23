@@ -1,3 +1,61 @@
+/* TEXT CUSTOMIZATIONS */
+h1 {
+    color: #1b556d;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #1b556d;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 1;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #1b556d;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+h4 {
+    color: #1b556d;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h5 {
+    color: #337e92;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    color: #30394b;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+label {
+    color: #30394b;
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+
+/* NAV BAR */
 nav {
     background-color: #f2f6f8;
     color: #1b556d;
@@ -17,49 +75,48 @@ nav a:hover {
     text-decoration: underline;
 }
 
-h1 {
-    color: #1b556d;
-    font-family: "DM Sans", Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 42px;
+
+/* HOME PAGE */
+.introbg {
+    background-color: #f2f6f8;
+    height: 380px;
 }
 
-h2 {
-    color: #1b556d;
-    font-family: "DM Sans", Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 28px;
+.intro {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
 }
 
-h3 {
-    color: #337e92;
-    font-family: "DM Sans", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+.i1, .i2, .i3 {
+    float: left;
+    width: 300px;
+    padding: 10px;
 }
 
-h4 {
-    color: #337e92;
-    font-family: "DM Sans", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+.reasoning {
+    width: 960px;
+    text-align: center;
+    margin: auto;
 }
 
-p {
-    color: #30394b;
-    font-family: "DM Sans", Arial, Helvetica, sans-serif;
-    font-size: 18px;
+
+/* FEATURES PAGE */
+.ccintro {
+    width: 960px;
+    margin: auto;
 }
 
-label {
-    color: #30394b;
-    font-family: "DM Sans", Arial, Helvetica, sans-serif;
-    font-size: 21px;
+.featsbg {
+    background-color: #f2f6f8;
+    padding: 2px;
 }
 
 .feats {
-    width: 800px;
-    margin: 0 auto;
+    width: 960px;
+    margin: auto;
 }
 
 #feat1 {
@@ -78,19 +135,35 @@ label {
     text-align: right;
 }
 
+
+/* ABOUT PAGE */
 .aboutus {
-    width: 800px;
-    margin: 0 auto;
+    width: 960px;
+    margin: auto;
+}
+
+.missionbg {
+    background-color: #f2f6f8;
+    margin: auto;
+    padding: 5px;
+}
+
+.ourmission {
+    width: 960px;
+    margin: auto;
+    text-align: right;
 }
 
 .team {
-    width: 800px;
-    margin: 0 auto;
+    width: 960px;
+    margin: auto;
 }
 
+
+/* CONTACT PAGE */
 .contactus {
     width: 800px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .contactblock {
