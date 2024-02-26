@@ -56,13 +56,16 @@ label {
 
 
 /* NAV BAR */
-nav {
+header {
     background-color: #f2f6f8;
+}
+
+nav {
     color: #1b556d;
     padding: 10px;
     font-family: "DM Sans", Arial, Helvetica, sans-serif;
     font-size: 21px;
-    text-align: right;
+    float: right;
 }
 
 nav a {
@@ -73,6 +76,10 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+}
+
+.titleheader {
+    margin-left: 10px;
 }
 
 
@@ -96,7 +103,7 @@ nav a:hover {
     padding: 10px;
 }
 
-.reasoning {
+.homeintro {
     width: 960px;
     text-align: center;
     margin: auto;
@@ -166,12 +173,26 @@ nav a:hover {
     margin: auto;
 }
 
-.contactblock {
-    background-color: #f2f6f8;
+.contactblock {   
+    background-color: #f2f6f8; 
     padding: 20px;
     width: 800px;
     text-align: center;
     display: inline-block;
+}
+
+.contactheader {
+    padding: 10px;
+    width: 800px;
+}
+
+#chead {
+    margin-bottom: 0;
+}
+
+#ctext {
+    margin-top: 0;
+    margin-bottom: 3px;
 }
 
 form {
