@@ -54,36 +54,62 @@ label {
     font-size: 21px;
 }
 
+.dashleft {
+    border: none;
+    width: 10%;
+    height: 4px;
+    margin-left: 0;
+    background-color: #fb6d7c;
+}
+
+.dashright {
+    border: none;
+    width: 10%;
+    height: 4px;
+    margin-right: 0;
+    background-color: #fb6d7c;
+}
 
 /* NAV BAR */
 header {
     background-color: #f2f6f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 nav {
     color: #1b556d;
-    padding: 10px;
     font-family: "DM Sans", Arial, Helvetica, sans-serif;
     font-size: 21px;
-    float: right;
 }
 
 nav a {
     color: #1b556d;
     text-decoration: none;
-    margin-right: 15px;
+    margin-left: 10px;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-#headertitle {
-    margin-left: 10px;
+.titleheader {
+    font-size: 36px;
+    margin-top: 0;
 }
 
 
 /* HOME PAGE */
+.hometitle {
+    margin-bottom: 0;
+}
+
+.hometext {
+    margin-top: 0;
+}
+
 .introbg {
     background-color: #f2f6f8;
     height: 380px;
@@ -126,19 +152,11 @@ nav a:hover {
     margin: auto;
 }
 
-#feat1 {
+#feat1, #feat3 {
     text-align: left;
 }
 
-#feat2 {
-    text-align: right;
-}
-
-#feat3 {
-    text-align: left;
-}
-
-#feat4 {
+#feat2, #feat4 {
     text-align: right;
 }
 
@@ -161,11 +179,37 @@ nav a:hover {
     text-align: right;
 }
 
-.team {
+#teamintro {
+    padding-top: 15px;
     width: 960px;
     margin: auto;
 }
 
+.team {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+#mikelly, #mirsab, #ariane, #enya {
+    float: left;
+    width: 200px;
+    padding: 20px;
+}
+
+.memimg {
+    width: 200px;
+    height: 200px;
+}
+
+.memtext {
+    margin-top: 1px;
+}
+
+.memname {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
 
 /* CONTACT PAGE */
 .contactus {
@@ -187,6 +231,7 @@ nav a:hover {
 }
 
 #chead {
+    margin-top: 0;
     margin-bottom: 0;
 }
 
