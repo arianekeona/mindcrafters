@@ -102,6 +102,12 @@ nav a:hover {
 
 
 /* HOME PAGE */
+.homeintro {
+    width: 960px;
+    text-align: center;
+    margin: auto;
+}
+
 .hometitle {
     margin-bottom: 0;
 }
@@ -129,12 +135,39 @@ nav a:hover {
     padding: 10px;
 }
 
-.homeintro {
+.processintro {
     width: 960px;
     text-align: center;
     margin: auto;
 }
 
+.processtitle {
+    margin-top: 25px;
+}
+
+.processtext {
+    margin-top: 0;
+}
+
+
+.process {
+    width: 960px;
+    margin: auto;
+}
+
+#lofi, #hifi {
+    text-align: left;
+}
+
+#midfi {
+    text-align: right;
+}
+
+.lofiimg {
+    max-width: 32%;
+    max-height: 32%;
+    border: 5px solid #1b556d;
+}
 
 /* FEATURES PAGE */
 .ccintro {
