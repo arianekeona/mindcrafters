@@ -118,7 +118,7 @@ nav a:hover {
 
 .introbg {
     background-color: #f2f6f8;
-    height: 380px;
+    height: 420px;
 }
 
 .intro {
@@ -163,10 +163,9 @@ nav a:hover {
     text-align: right;
 }
 
-.lofiimg {
-    max-width: 32%;
-    max-height: 32%;
-    border: 5px solid #1b556d;
+.designimg {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* FEATURES PAGE */
