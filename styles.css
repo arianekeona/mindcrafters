@@ -56,7 +56,7 @@ label {
 
 .dashleft {
     border: none;
-    width: 10%;
+    width: 28%;
     height: 4px;
     margin-left: 0;
     background-color: #fb6d7c;
@@ -64,10 +64,17 @@ label {
 
 .dashright {
     border: none;
-    width: 10%;
+    width: 28%;
     height: 4px;
     margin-right: 0;
     background-color: #fb6d7c;
+}
+
+.dashdivider {
+    border: none;
+    width: 100%;
+    height: 4px;
+    background-color: #1b556d;
 }
 
 /* NAV BAR */
@@ -102,6 +109,16 @@ nav a:hover {
 
 
 /* HOME PAGE */
+#homeintroimg {
+    width: 100%;
+    height: 100%;
+}
+
+.homeintrobg {
+    background-color: #f2f6f8;
+    height: 250px;
+}
+
 .homeintro {
     width: 960px;
     text-align: center;
@@ -109,6 +126,7 @@ nav a:hover {
 }
 
 .hometitle {
+    padding-top: 40px;
     margin-bottom: 0;
 }
 
@@ -117,7 +135,6 @@ nav a:hover {
 }
 
 .introbg {
-    background-color: #f2f6f8;
     height: 420px;
 }
 
@@ -135,6 +152,11 @@ nav a:hover {
     padding: 10px;
 }
 
+.processbg {
+    background-color: #f2f6f8;
+    height: 120%;
+}
+
 .processintro {
     width: 960px;
     text-align: center;
@@ -142,6 +164,7 @@ nav a:hover {
 }
 
 .processtitle {
+    padding-top: 20px;
     margin-top: 25px;
 }
 
@@ -159,13 +182,13 @@ nav a:hover {
     text-align: left;
 }
 
-#midfi {
+#midfi, #prototype {
     text-align: right;
 }
 
 .designimg {
     max-width: 100%;
-    max-height: 100%;
+    height: 100%;
 }
 
 /* FEATURES PAGE */
@@ -180,18 +203,57 @@ nav a:hover {
 }
 
 .feats {
+    padding-top: 45px;
+    padding-bottom: 45px;
     width: 960px;
     margin: auto;
 }
 
 #feat1, #feat3 {
+    display: flex;
     text-align: left;
 }
 
 #feat2, #feat4 {
+    display: flex;
     text-align: right;
 }
 
+#f1img {
+    display: flex;
+}
+
+#f2img {
+    display: flex;
+}
+
+#f3img {
+    display: flex;
+}
+
+#f4img {
+    display: flex;
+}
+
+.mockupimgsleft {
+    width: 200px;
+    height: auto;
+    padding-right: 15px;
+}
+
+.mockupimgsright {
+    width: 200px;
+    height: auto;
+    padding-left: 15px;
+}
+
+#f1txt, #f3txt {
+    padding-left: 20px;
+}
+
+#f2txt, #f4txt {
+    padding-right: 20px;
+}
 
 /* ABOUT PAGE */
 .aboutus {
