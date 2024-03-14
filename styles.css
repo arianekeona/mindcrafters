@@ -152,8 +152,40 @@ nav a:hover {
     padding: 10px;
 }
 
-.researchbg {
+.backgroundbg {
     background-color: #f2f6f8;
+    height: 120%;
+}
+
+.backgroundintro {
+    width: 960px;
+    text-align: center;
+    margin: auto;
+}
+
+.backgroundtitle {
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+.backgroundtext {
+    margin-top: 0;
+}
+
+.background {
+    width: 960px;
+    margin: auto;
+}
+
+#problem, #gaps {
+    text-align: left;
+}
+
+#solutions {
+    text-align: right;
+}
+
+.researchbg {
     height: 420px;
 }
 
@@ -187,6 +219,7 @@ nav a:hover {
 }
 
 .processbg {
+    background-color: #f2f6f8;
     height: 120%;
 }
 
