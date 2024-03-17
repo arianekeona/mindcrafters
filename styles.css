@@ -143,6 +143,8 @@ nav a:hover {
     margin-top: 0;
 }
 
+
+
 .introbg {
     height: 420px;
 }
@@ -166,7 +168,6 @@ nav a:hover {
 
 
 .backgroundbg {
-    background-color: #f2f6f8;
     height: 1200px;
 }
 
@@ -236,6 +237,7 @@ li {
 
 
 .researchbg {
+    background-color: #f2f6f8;
     height: 420px;
 }
 
