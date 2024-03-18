@@ -62,7 +62,7 @@ li {
 
 .dashleft {
     border: none;
-    width: 28%;
+    width: 25%;
     height: 4px;
     margin-left: 0;
     background-color: #fb6d7c;
@@ -70,7 +70,7 @@ li {
 
 .dashright {
     border: none;
-    width: 28%;
+    width: 25%;
     height: 4px;
     margin-right: 0;
     background-color: #fb6d7c;
@@ -168,7 +168,7 @@ nav a:hover {
 
 
 .backgroundbg {
-    height: 1200px;
+    height: 850px;
 }
 
 .backgroundintro {
@@ -198,7 +198,6 @@ nav a:hover {
     height: auto;
     padding-left: 15px;
 }
-
 
 .bgimgsleft {
     display: flex;
@@ -248,8 +247,7 @@ li {
 }
 
 .researchtitle {
-    padding-top: 20px;
-    margin-top: 25px;
+    padding-top: 50px;
 }
 
 .researchtext {
@@ -270,6 +268,9 @@ li {
     padding: 10px;
 }
 
+
+
+
 .processbg {
     background-color: #f2f6f8;
     height: 120%;
@@ -282,8 +283,7 @@ li {
 }
 
 .processtitle {
-    padding-top: 20px;
-    margin-top: 25px;
+    padding-top: 50px;
 }
 
 .processtext {
@@ -295,11 +295,11 @@ li {
     margin: auto;
 }
 
-#lofi, #hifi {
+#lofi, #usetest, #prototype {
     text-align: left;
 }
 
-#midfi, #prototype {
+#midfi, #hifi {
     text-align: right;
 }
 
